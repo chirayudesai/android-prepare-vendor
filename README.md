@@ -135,20 +135,22 @@ vendor blobs).
 
 
 ## Supported devices
-| Device                          | API 23                      | API 24           | API 25           | API 26  | API 27  | API 28  |
-| ------------------------------- | --------------------------- | -----------------| -----------------| --------| --------| --------|
-| N5x bullhead                    | smaliex<br>smali<br>oatdump | oatdump<br>smali | oatdump<br>smali | oatdump | oatdump | N/A     |
-| N6p angler                      | smaliex<br>smali<br>oatdump | oatdump<br>smali | oatdump<br>smali | oatdump | oatdump | N/A     |
-| N9 flounder<br> WiFi (volantis) | smaliex<br>smali<br>oatdump | oatdump<br>smali | oatdump<br>smali | N/A     | N/A     | N/A     |
-| N9 flounder<br> LTE (volantisg) | smaliex<br>smali<br>oatdump | oatdump<br>smali | oatdump<br>smali | N/A     | N/A     | N/A     |
-| Pixel sailfish                  | N/A                         | N/A              | oatdump<br>smali | oatdump | oatdump | oatdump |
-| Pixel XL marlin                 | N/A                         | N/A              | oatdump<br>smali | oatdump | oatdump | oatdump |
-| Pixel 2 walleye                 | N/A                         | N/A              | N/A              | oatdump | oatdump | oatdump |
-| Pixel 2 XL taimen               | N/A                         | N/A              | N/A              | oatdump | oatdump | oatdump |
-| Pixel 3 blueline                | N/A                         | N/A              | N/A              | N/A     | N/A     | oatdump |
-| Pixel 3 XL crosshatch           | N/A                         | N/A              | N/A              | N/A     | N/A     | oatdump |
-| Pixel 3a sargo                  | N/A                         | N/A              | N/A              | N/A     | N/A     | oatdump |
-| Pixel 3a XL bonito              | N/A                         | N/A              | N/A              | N/A     | N/A     | oatdump |
+| Device                          | API 23                      | API 24           | API 25           | API 26  | API 27  | API 28  | API 29  |
+| ------------------------------- | --------------------------- | -----------------| -----------------| --------| --------| --------| --------|
+| N5x bullhead                    | smaliex<br>smali<br>oatdump | oatdump<br>smali | oatdump<br>smali | oatdump | oatdump | N/A     | N/A     |
+| N6p angler                      | smaliex<br>smali<br>oatdump | oatdump<br>smali | oatdump<br>smali | oatdump | oatdump | N/A     | N/A     |
+| N9 flounder<br> WiFi (volantis) | smaliex<br>smali<br>oatdump | oatdump<br>smali | oatdump<br>smali | N/A     | N/A     | N/A     | N/A     |
+| N9 flounder<br> LTE (volantisg) | smaliex<br>smali<br>oatdump | oatdump<br>smali | oatdump<br>smali | N/A     | N/A     | N/A     | N/A     |
+| Pixel sailfish                  | N/A                         | N/A              | oatdump<br>smali | oatdump | oatdump | oatdump | oatdump |
+| Pixel XL marlin                 | N/A                         | N/A              | oatdump<br>smali | oatdump | oatdump | oatdump | oatdump |
+| Pixel 2 walleye                 | N/A                         | N/A              | N/A              | oatdump | oatdump | oatdump | oatdump |
+| Pixel 2 XL taimen               | N/A                         | N/A              | N/A              | oatdump | oatdump | oatdump | oatdump |
+| Pixel 3 blueline                | N/A                         | N/A              | N/A              | N/A     | N/A     | oatdump | oatdump |
+| Pixel 3 XL crosshatch           | N/A                         | N/A              | N/A              | N/A     | N/A     | oatdump | oatdump |
+| Pixel 3a sargo                  | N/A                         | N/A              | N/A              | N/A     | N/A     | oatdump | oatdump |
+| Pixel 3a XL bonito              | N/A                         | N/A              | N/A              | N/A     | N/A     | oatdump | oatdump |
+| Pixel 4 flame                   | N/A                         | N/A              | N/A              | N/A     | N/A     | N/A     | oatdump |
+| Pixel 4 XL coral                | N/A                         | N/A              | N/A              | N/A     | N/A     | N/A     | oatdump |
 
 
 Please check existing
@@ -161,6 +163,7 @@ target device before any pull request.
 
 ## Change Log
 * 0.6.0 - TBC
+  * Android 10 (API-29) support for Pixel 4 (flame) & Pixel 4 XL (coral)
   * Android 9 (API-28) support for Pixel 3a (sargo) & Pixel 3a XL (bonito)
   * Android 9 (API-28) support for Pixel 3 (blueline) & Pixel 3 XL (crosshatch)
   * Improve support for deterministic builds (`--timestamp` option)
