@@ -157,10 +157,10 @@ accept_tos
 
 # Then retrieve the index page
 if [ "$OTA" = true ]; then
-  url=$(curl -L -b "$COOKIE_FILE" --silent "$GURL2" | \
+  url=$(curl -L -b "$COOKIE_FILE" --cookie "devsite_wall_acks=nexus-ota-tos" --silent "$GURL2" | \
         grep -i "<a href=.*$DEV_ALIAS-ota-$BUILDID-" | cut -d '"' -f2)
 else
-  url=$(curl -L -b "$COOKIE_FILE" --silent "$GURL" | \
+  url=$(curl -L -b "$COOKIE_FILE" --cookie "devsite_wall_acks=nexus-image-tos"--silent "$GURL" | \
         grep -i "<a href=.*$DEV_ALIAS-$BUILDID-" | cut -d '"' -f2)
 fi
 
